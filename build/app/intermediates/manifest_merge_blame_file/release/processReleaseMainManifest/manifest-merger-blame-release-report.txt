@@ -1,0 +1,266 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rtef"
+4    android:versionCode="74"
+5    android:versionName="1.1.8" > <!-- Add the versionCode and versionName attributes -->
+6    <uses-sdk
+7        android:minSdkVersion="23"
+8        android:targetSdkVersion="35" />
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:3:5-67
+10-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:3:22-64
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:4:22-65
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:5:5-76
+12-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:5:22-74
+13    <!-- Foreground service permission for media playback on Android 14+ -->
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+14-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:7:5-92
+14-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:7:22-89
+15
+16    <!-- Required for url_launcher on Android 11+ -->
+17    <queries>
+17-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:10:5-21:15
+18        <intent>
+18-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:11:9-15:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:12:13-65
+19-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:12:21-62
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:13:13-74
+21-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:13:23-71
+22
+23            <data android:scheme="https" />
+23-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:14:13-44
+23-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:14:19-41
+24        </intent>
+25        <intent>
+25-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:16:9-20:18
+26            <action android:name="android.intent.action.VIEW" />
+26-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:12:13-65
+26-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:12:21-62
+27
+28            <category android:name="android.intent.category.BROWSABLE" />
+28-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:13:13-74
+28-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:13:23-71
+29
+30            <data android:scheme="http" />
+30-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:14:13-44
+30-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:14:19-41
+31        </intent>
+32    </queries>
+33    android:versionCode="1"
+34    android:versionName="1.1.0"
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->[androidx.media3:media3-common:1.6.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/5642c54e6a2541888b185da14427f7fb/transformed/jetified-media3-common-1.6.1/AndroidManifest.xml:22:5-79
+35-->[androidx.media3:media3-common:1.6.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/5642c54e6a2541888b185da14427f7fb/transformed/jetified-media3-common-1.6.1/AndroidManifest.xml:22:22-76
+36
+37    <permission
+37-->[androidx.core:core:1.13.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/dbd87ceb41557b139408213029218c06/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+38        android:name="com.rtef.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.13.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/dbd87ceb41557b139408213029218c06/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.13.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/dbd87ceb41557b139408213029218c06/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.rtef.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.13.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/dbd87ceb41557b139408213029218c06/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.13.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/dbd87ceb41557b139408213029218c06/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+42
+43    <application
+44        android:name="android.app.Application"
+44-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:25:9-42
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.13.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/dbd87ceb41557b139408213029218c06/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/launcher_icon"
+47-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:26:9-45
+48        android:label="Radio Tele Evangelique Florida"
+48-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:24:9-55
+49        android:usesCleartextTraffic="true" >
+49-->[:radio_player] /Users/louveltvoltaire/Development/projects/rveh/build/radio_player/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:18-53
+50        <activity
+50-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:27:9-54:20
+51            android:name="com.example.my_radio.MainActivity"
+51-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:28:13-41
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:32:13-163
+53            android:exported="true"
+53-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:29:13-36
+54            android:hardwareAccelerated="true"
+54-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:33:13-47
+55            android:launchMode="singleTop"
+55-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:30:13-43
+56            android:theme="@style/LaunchTheme"
+56-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:31:13-47
+57            android:windowSoftInputMode="adjustResize" >
+57-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:34:13-55
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+65-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:39:13-42:17
+66                android:name="io.flutter.embedding.android.NormalTheme"
+66-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:40:15-70
+67                android:resource="@style/NormalTheme" />
+67-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:41:15-52
+68
+69            <intent-filter>
+69-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:43:13-46:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:44:17-68
+70-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:44:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:45:17-76
+72-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:45:27-74
+73            </intent-filter>
+74            <intent-filter>
+74-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:47:13-53:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:12:13-65
+75-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:12:21-62
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:49:17-75
+77-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:49:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:13:13-74
+78-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:13:23-71
+79
+80                <data android:scheme="http" />
+80-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:14:13-44
+80-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:14:19-41
+81                <data android:scheme="https" />
+81-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:14:13-44
+81-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:14:19-41
+82            </intent-filter>
+83        </activity>
+84
+85        <service
+85-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:56:9-59:45
+86            android:name="co.clipcode.radio_player.RadioPlayerService"
+86-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:56:18-76
+87            android:exported="true"
+87-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:58:13-36
+88            android:foregroundServiceType="mediaPlayback" />
+88-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:57:13-58
+89
+90        <!--
+91             Don't delete the meta-data below.
+92             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+93        -->
+94        <meta-data
+94-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:63:9-65:33
+95            android:name="flutterEmbedding"
+95-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:64:13-44
+96            android:value="2" />
+96-->/Users/louveltvoltaire/Development/projects/rveh/android/app/src/main/AndroidManifest.xml:65:13-30
+97
+98        <service
+98-->[:radio_player] /Users/louveltvoltaire/Development/projects/rveh/build/radio_player/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:9-20:19
+99            android:name="com.cheebeez.radio_player.RadioPlayerService"
+99-->[:radio_player] /Users/louveltvoltaire/Development/projects/rveh/build/radio_player/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:13-72
+100            android:exported="true"
+100-->[:radio_player] /Users/louveltvoltaire/Development/projects/rveh/build/radio_player/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:13-36
+101            android:foregroundServiceType="mediaPlayback" >
+101-->[:radio_player] /Users/louveltvoltaire/Development/projects/rveh/build/radio_player/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:13-58
+102            <intent-filter>
+102-->[:radio_player] /Users/louveltvoltaire/Development/projects/rveh/build/radio_player/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:17:13-19:29
+103                <action android:name="androidx.media3.session.MediaSessionService" />
+103-->[:radio_player] /Users/louveltvoltaire/Development/projects/rveh/build/radio_player/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:17-86
+103-->[:radio_player] /Users/louveltvoltaire/Development/projects/rveh/build/radio_player/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:25-83
+104            </intent-filter>
+105        </service>
+106
+107        <activity
+107-->[:url_launcher_android] /Users/louveltvoltaire/Development/projects/rveh/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-11:74
+108            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+108-->[:url_launcher_android] /Users/louveltvoltaire/Development/projects/rveh/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-74
+109            android:exported="false"
+109-->[:url_launcher_android] /Users/louveltvoltaire/Development/projects/rveh/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-37
+110            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+110-->[:url_launcher_android] /Users/louveltvoltaire/Development/projects/rveh/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-71
+111
+112        <uses-library
+112-->[androidx.window:window:1.2.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/2a0b1c9c3f4b19a89c899305fddf9f1c/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+113            android:name="androidx.window.extensions"
+113-->[androidx.window:window:1.2.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/2a0b1c9c3f4b19a89c899305fddf9f1c/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+114            android:required="false" />
+114-->[androidx.window:window:1.2.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/2a0b1c9c3f4b19a89c899305fddf9f1c/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+115        <uses-library
+115-->[androidx.window:window:1.2.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/2a0b1c9c3f4b19a89c899305fddf9f1c/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+116            android:name="androidx.window.sidecar"
+116-->[androidx.window:window:1.2.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/2a0b1c9c3f4b19a89c899305fddf9f1c/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+117            android:required="false" />
+117-->[androidx.window:window:1.2.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/2a0b1c9c3f4b19a89c899305fddf9f1c/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+118
+119        <provider
+119-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/71a063df4afbe90b6a58f79f162e9d4a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/71a063df4afbe90b6a58f79f162e9d4a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+121            android:authorities="com.rtef.androidx-startup"
+121-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/71a063df4afbe90b6a58f79f162e9d4a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+122            android:exported="false" >
+122-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/71a063df4afbe90b6a58f79f162e9d4a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/71a063df4afbe90b6a58f79f162e9d4a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/71a063df4afbe90b6a58f79f162e9d4a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/71a063df4afbe90b6a58f79f162e9d4a/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+126            <meta-data
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+128                android:value="androidx.startup" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+129        </provider>
+130
+131        <receiver
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+132            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+133            android:directBootAware="false"
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+134            android:enabled="true"
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+135            android:exported="true"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+136            android:permission="android.permission.DUMP" >
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+138                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+141                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+144                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+147                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/louveltvoltaire/.gradle/caches/8.10/transforms/8070d026223dcd01c9c2b46062d42012/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+148            </intent-filter>
+149        </receiver>
+150    </application>
+151
+152</manifest>
